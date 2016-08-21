@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QuizExample01</string>
+    <string name="Version">Version 1.0</string>
+    <string name="button1996">Answer 1996</string>
+    <string name="button1998">Answer 1998</string>
+    <string name="button2000">Answer 2000</string>
+    <string name="button2002">Answer 2002</string>
+</resources>

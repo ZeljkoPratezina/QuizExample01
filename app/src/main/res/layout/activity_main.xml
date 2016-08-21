@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zeljkopratezina.quizexample01.MainActivity"
+    android:background="@drawable/background"
+    android:clickable="false">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What time did Croatian Footbal team first appeared in World Cup?"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:id="@+id/textView"
+    android:textSize="22sp"
+    android:textColor="#000000"
+    android:textIsSelectable="false"
+    android:textStyle="bold"
+    android:layout_centerHorizontal="true"/>
+
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="1996"
+    android:id="@+id/button1996"
+    android:background="@drawable/button"
+    android:layout_above="@+id/button1998"
+    android:layout_alignLeft="@+id/button1998"
+    android:layout_alignStart="@+id/button1998"
+    android:layout_marginBottom="33dp"
+    android:textSize="18dp"
+    android:contentDescription="@string/button1996"
+    android:onClick="onClick1996" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="1998"
+    android:id="@+id/button1998"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/button"
+    android:textSize="20dp"
+    android:contentDescription="@string/button1998"
+    android:onClick="onClick1998" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="2000"
+    android:id="@+id/button2000"
+    android:layout_marginTop="33dp"
+    android:background="@drawable/button"
+    android:layout_below="@+id/button1998"
+    android:layout_alignLeft="@+id/button1998"
+    android:layout_alignStart="@+id/button1998"
+    android:textSize="20dp"
+    android:contentDescription="@string/button2000"
+    android:onClick="onClick2000" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="2002"
+    android:id="@+id/button2002"
+    android:background="@drawable/button"
+    android:layout_below="@+id/button2000"
+    android:layout_alignLeft="@+id/button2000"
+    android:layout_alignStart="@+id/button2000"
+    android:layout_marginTop="32dp"
+    android:textSize="20dp"
+    android:contentDescription="@string/button2002"
+    android:onClick="onClick2002" />
+</RelativeLayout>
